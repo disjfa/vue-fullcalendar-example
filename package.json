@@ -3,12 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "deploy": "gh-pages -d dist",
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve"
   },
   "dependencies": {
+    "@fullcalendar/daygrid": "^4.0.1",
+    "@fullcalendar/interaction": "^4.0.2",
+    "@fullcalendar/timegrid": "^4.0.1",
+    "@fullcalendar/vue": "^4.0.2-beta",
     "core-js": "^2.6.5",
+    "gh-pages": "^2.0.1",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3"
   },
